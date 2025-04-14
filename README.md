@@ -1,11 +1,6 @@
-
----
-
 # 🧠 MindfulMate: A Compassionate Mental Health Chatbot
 
 **MindfulMate** is a Streamlit-based AI-powered mental health chatbot built specifically for Indian users. It utilizes **Google’s Gemini 1.5 Flash** model to deliver warm, mood-aware, and emotionally intelligent conversations. The chatbot also features real-time **distress detection** and provides immediate access to verified **Indian mental health helplines**.
-
----
 
 ## 🌟 Features
 
@@ -14,8 +9,6 @@
 - 🚨 **Distress detection** — responds to suicidal/self-harm cues with empathy and emergency helplines  
 - 📱 **Session-based chat history** — no data storage; privacy-first interaction using Streamlit  
 - 🇮🇳 **Localized support** — integrates Indian mental health helpline resources
-
----
 
 ## 🛠️ Installation
 
@@ -49,8 +42,6 @@ streamlit run chatbot.py
 - Streamlit  
 - Google Generative AI SDK (`google-generativeai`)  
 
----
-
 ## 🙋‍♀️ Usage
 
 1. Launch the chatbot in your browser  
@@ -58,8 +49,6 @@ streamlit run chatbot.py
 3. Start chatting with **MindfulMate**  
 4. Receive friendly, empathetic, and concise responses  
 5. If distress is detected, MindfulMate will share relevant helpline numbers immediately
-
----
 
 ## 📞 Indian Mental Health Helplines
 
@@ -70,10 +59,7 @@ MindfulMate responds with these verified resources during signs of emotional dis
 - **National Mental Health Helpline**: 080-46110007  
 - **Emergency Services**: Dial 112
 
----
-
 ## ⚠️ Disclaimer
 
 **MindfulMate** is intended as an AI-based emotional support tool. It is **not a replacement for professional mental health care**. In cases of serious mental health concerns, always consult a licensed therapist or medical professional.
 
----
