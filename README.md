@@ -1,62 +1,79 @@
-🧠 MindfulMate: A Compassionate Mental Health Chatbot
-MindfulMate is a Streamlit-based mental health chatbot tailored for Indian users. Built using Gemini 1.5 Flash, it offers empathetic, mood-aware conversations while also responding appropriately to distress signals with crisis support resources.
 
-🌟 Features
-💬 Natural, flowing conversations (like chatting with a friend)
-🧘 Mood-based support without sounding clinical
-🚨 Suicide/self-harm detection with immediate support and helplines
-📱 Session-based chat history using Streamlit
-🇮🇳 Indian mental health helpline integration
-🛠️ Installation
-Clone the repository:
+---
+
+# 🧠 MindfulMate: A Compassionate Mental Health Chatbot
+
+**MindfulMate** is a Streamlit-based AI-powered mental health chatbot built specifically for Indian users. It utilizes **Google’s Gemini 1.5 Flash** model to deliver warm, mood-aware, and emotionally intelligent conversations. The chatbot also features real-time **distress detection** and provides immediate access to verified **Indian mental health helplines**.
+
+---
+
+## 🌟 Features
+
+- 💬 **Natural, flowing conversations** — feels like chatting with a supportive friend  
+- 🧘 **Mood-based tone adjustment** — adapts responses based on selected mood  
+- 🚨 **Distress detection** — responds to suicidal/self-harm cues with empathy and emergency helplines  
+- 📱 **Session-based chat history** — no data storage; privacy-first interaction using Streamlit  
+- 🇮🇳 **Localized support** — integrates Indian mental health helpline resources
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the repository:
+```bash
 git clone https://github.com/yourusername/mindfulmate-chatbot.git
 cd mindfulmate-chatbot
-Install dependencies:
+```
+
+### 2. Install dependencies:
+```bash
 pip install -r requirements.txt
-Add your Google Gemini API key:
-Open chatbot.py
-Replace the placeholder API key with your actual Google API key or load it via environment variables
-Run the chatbot:
+```
+
+### 3. Add your Google Gemini API key:
+- Open `chatbot.py` (or `app.py`)
+- Replace the placeholder API key with your actual Google API key  
+  *or*  
+- Load your key securely using environment variables
+
+### 4. Run the chatbot:
+```bash
 streamlit run chatbot.py
-📦 Requirements
-Python 3.x
-Streamlit
-Google Generative AI SDK
-🙋‍♀️ Usage
-Launch the chatbot.
-Select your current mood.
-Start chatting with MindfulMate.
-Get supportive, short, and meaningful responses.
-In case of distress signals, get helpline information immediately.
-📞 Indian Mental Health Resources
-MindfulMate shares the following resources in times of emotional distress:
+```
 
-Vandrevala Foundation: 1860-2662-345
-iCall Helpline: 9152987821
-National Helpline: 080-46110007
-Emergency: Dial 112
-⚠️ Disclaimer
-MindfulMate is an AI-based support tool and not a substitute for professional mental health care.
+---
 
-About
-MindfulMate is a Streamlit-based mental health chatbot tailored for Indian users. Built using Gemini 1.5 Flash, it offers empathetic, mood-aware conversations while also responding appropriately to distress signals with crisis support resources.
+## 📦 Requirements
 
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Languages
-Python
-100.0%
-Footer
+- Python 3.x  
+- Streamlit  
+- Google Generative AI SDK (`google-generativeai`)  
 
+---
+
+## 🙋‍♀️ Usage
+
+1. Launch the chatbot in your browser  
+2. Select your current mood  
+3. Start chatting with **MindfulMate**  
+4. Receive friendly, empathetic, and concise responses  
+5. If distress is detected, MindfulMate will share relevant helpline numbers immediately
+
+---
+
+## 📞 Indian Mental Health Helplines
+
+MindfulMate responds with these verified resources during signs of emotional distress:
+
+- **Vandrevala Foundation**: 1860-2662-345 (24/7)  
+- **iCall Helpline**: 9152987821 (10 AM – 8 PM)  
+- **National Mental Health Helpline**: 080-46110007  
+- **Emergency Services**: Dial 112
+
+---
+
+## ⚠️ Disclaimer
+
+**MindfulMate** is intended as an AI-based emotional support tool. It is **not a replacement for professional mental health care**. In cases of serious mental health concerns, always consult a licensed therapist or medical professional.
+
+---
